@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
 	h1 {
 		font-variant: small-caps;
 	}
-}
+	button {
+		@apply bg-primary px-2 py-1 text-white rounded shadow-md shadow-blue-400;
+	}
+
+	body {
+		// background-color: theme(backgroundColor.red.700)
+	}
